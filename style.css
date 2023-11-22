@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    min-height: 500px !important;
+}
+.header{
+    /* display: flex; */
+    margin-top: 10px;
+    /* border: solid 1px red; */
+    height: auto;
+    height: 90vh;
+    width: 50%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 5px 30px rgb(33, 31, 31) ;
+    
+}
+.header h1{
+    padding-top: 20px;
+    /* border: solid 1px red; */
+    font-size: 2rem;
+    font-weight: 900;
+    color:#6b8cce;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+
+    
+
+}
+.Input input{
+    width: 73%;
+    height:30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    /* border-radius: 3px; */
+    /* border-right: none ; */
+    font-size: 1rem;
+    padding-left: 20px;
+}
+ .Input button{
+    height: 33px;
+    width: 80px;
+    background-color: #6b8cce;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+ }
+ .cardMain{
+    display: flex;
+
+ }
+
+ .cardMain p{
+    margin-top: 30px;
+    height: 30px;
+    font-size:1.2rem;
+    width: 70%;
+    font-weight: 100;
+    margin-left: 30PX   ;
+    padding-left: 10px;
+    background-color: aliceblue;
+    border-radius: 2px;
+    border:none; 
+}
+ 
+ .first button{
+    /* padding-left: px; */
+     margin-top: 30px;
+     margin-left: 10px;
+     /* font-size: 1.5rem; */
+     height: 25px;
+     width: 60px;
+     color: white;
+     background-color: red;
+     border: none;
+     border-radius: 3px;
+     cursor: pointer;
+
+
+ }
+ .sec button{
+    margin-top: 30px;
+     margin-left: 15px;
+     /* font-size: 1.5rem;   */
+     height: 25px;
+     width: 50px;
+     margin-right: 48px;
+     color: white;
+     background-color: rgb(59, 197, 59);
+     border: none;
+     border-radius: 3px;
+     cursor: pointer;
+
+
+ }
+
+ .deletbtn{
+    margin-top: 20px;   
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    cursor: pointer;
+
+ }
+ .deletbtn button{
+    height: 40px;
+    width: 100px;   
+    font-size: 1rem;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    background-color: #6b8cce;
+    cursor: pointer;
+ }
+ 
